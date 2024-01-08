@@ -18,6 +18,6 @@ func main() {
 	}
 	data = append(data, m1)
 	for _, v := range data {
-		fmt.Printf("Halo nama saya %s, umur saya %d tahun, dan alamat saya di %s", v.Nama, v.Umur, v.Alamat)
+		fmt.Printf("Halo nama saya %s, umur saya %d tahun, dan alamat saya di %s.\n", v.Nama, v.Umur, v.Alamat)
 	}
 }
