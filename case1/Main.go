@@ -16,7 +16,12 @@ func main() {
 		Umur:   25,
 		Alamat: "Tasikmalaya",
 	}
-	data = append(data, m1)
+	m2 := identitas{
+		Nama:   "Susanto",
+		Umur:   24,
+		Alamat: "Solo",
+	}
+	data = append(data, m1, m2)
 	for _, v := range data {
 		fmt.Printf("Halo nama saya %s, umur saya %d tahun, dan alamat saya di %s.\n", v.Nama, v.Umur, v.Alamat)
 	}
